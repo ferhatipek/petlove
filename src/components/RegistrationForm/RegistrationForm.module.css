@@ -1,0 +1,140 @@
+.formWrapper {
+  padding: 69px 84px;
+  border-radius: 60px;
+  width: 592px;
+  height: 654px;
+  background-color: var(--main-white);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  margin-bottom: 16px;
+}
+.text {
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: -0.02em;
+  margin-bottom: 32px;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.inputBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.field {
+  border: 1px solid rgba(38, 38, 38, 0.15);
+  border-radius: 30px;
+  padding: 16px;
+  width: 100%;
+  height: 52px;
+}
+
+.field:placeholder {
+  color: rgba(38, 38, 38, 0.5);
+}
+
+.fieldSuccess {
+  border: 1px solid green;
+}
+
+.fieldError {
+  border: 1px solid red;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.nameCheckIcon {
+  position: absolute;
+  top: 15px;
+  right: 16px;
+}
+
+.emailCheckIcon {
+  position: absolute;
+  top: 15px;
+  right: 16px;
+}
+
+.passwordCheckIcon {
+  position: absolute;
+  top: 15px;
+  right: 50px;
+}
+
+.confirmCheckIcon {
+  position: absolute;
+  top: 15px;
+  right: 50px;
+}
+
+.eye {
+  position: absolute;
+  top: 15px;
+  right: 16px;
+}
+
+.errorMessage {
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 1.17;
+  color: var(--main-error);
+}
+
+.btnWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  border-radius: 30px;
+  padding: 16px 157px;
+  width: 100%;
+  height: 52px;
+  background-color: var(--main-orange);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--main-white);
+  font-family: var(--font-family);
+  margin-bottom: 16px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--main-button-hover);
+}
+
+.linkWrapper {
+  display: flex;
+  align-content: center;
+}
+
+.linkText {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  color: rgba(38, 38, 38, 0.5);
+  margin-right: 3px;
+}
+
+.link {
+  display: block;
+  line-height: 1.43;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--main-orange);
+}
