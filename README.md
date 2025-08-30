@@ -13,6 +13,6 @@
 
 ```bash
 git https://github.com/ferhatipek/petlove.git
-cd learnlingo
+cd petlove-app-main
 npm install
 npm run dev
